@@ -36,6 +36,71 @@ about: {
 
 
 
+education: [
+  {
+    id: 1,
+    title: "Bachelor of Computer Systems and Information Technology (BCSIT)",
+    place: "Apex College, Pokhara University",
+    year: "2023 - Present",
+    icon: "graduation",
+    color: "#22d3ee",
+    status: "In Progress",
+    details:
+      "Currently pursuing my bachelor's degree in Computer Systems and Information Technology, focusing on programming, software development, data science and emerging technologies."
+  },
+  {
+    id: 2,
+    title: "Higher Secondary Certificate",
+    place: "Radiant Secondary School",
+    year: "2021 - 2023",
+    icon: "book",
+    color: "#a78bfa",
+    status: "Completed",
+    details:
+      "Completed higher secondary education in the Science stream, building a foundation in science, mathematics and analytical thinking."
+  },
+  {
+    id: 3,
+    title: "Secondary School Certificate",
+    place: "Bhumiraj Secondary School",
+    year: "2008 - 2021",
+    icon: "school",
+    color: "#34d399",
+    status: "Completed",
+    details:
+      "Completed secondary education and developed a foundation for further academic learning."
+  }
+],
+
+
+
+experience: [
+  {
+    id: 1,
+    title: "UI/UX Designer and Frontend Developer",
+    place: "AfnoBazar",
+    year: "Mar 2025 - Aug 2025",
+    icon: "briefcase",
+    color: "#22d3ee",
+    status: "Completed",
+
+    highlights: [
+      "Designed clean and user-friendly interfaces using Figma and Canva.",
+      "Developed responsive web pages with HTML, CSS, JavaScript and React.",
+      "Worked closely with the team to improve the overall user experience and design quality."
+    ],
+
+    tags: [
+      "Figma",
+      "Canva",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React"
+    ]
+  }
+],
+
 
 
 skills: [
@@ -260,32 +325,154 @@ skills: [
 
 
 
+projects: [
+  // Full Stack
+  {
+    id: 1,
+    title: "Task Manager App",
+    category: "Full Stack",
+    problem: "Teams lose track of who is doing what. This app lets users sign in, create tasks, assign them and mark them done.",
+    tags: ["React", "Node.js", "MongoDB"],
+    github: "https://github.com/your-username/task-manager",
+    liveDemo: ""
+  },
+  {
+    id: 2,
+    title: "Student Management System",
+    category: "Full Stack",
+    problem: "Schools still keep student records on paper. This system stores students, marks and attendance in one database.",
+    tags: ["PHP", "MySQL", "JavaScript"],
+    github: "https://github.com/your-username/student-management",
+    liveDemo: ""
+  },
+
+  // Frontend
+  {
+    id: 3,
+    title: "Personal Portfolio Website",
+    category: "Frontend",
+    problem: "Recruiters need a quick way to see my skills and projects. This responsive site presents both in one place.",
+    tags: ["React", "Tailwind CSS"],
+    github: "https://github.com/bikrambohara/my-portfolio.git",
+    liveDemo: ""
+  },
+  {
+    id: 4,
+    title: "Weather Dashboard",
+    category: "Frontend",
+    problem: "Checking the weather across many sites is slow. This dashboard shows the forecast for any city from a public API.",
+    tags: ["JavaScript", "API", "CSS"],
+    github: "https://github.com/your-username/weather-dashboard",
+    liveDemo: ""
+  },
+
+  // Data Science
+  {
+    id: 5,
+    title: "House Price Prediction",
+    category: "Data Science",
+    problem: "Buyers and sellers cannot easily tell a fair price. This model predicts house prices from size, location and rooms.",
+    tags: ["Python", "Pandas", "Scikit-learn"],
+    github: "https://github.com/your-username/house-price-prediction",
+    liveDemo: ""
+  },
+  {
+    id: 6,
+    title: "Customer Churn Prediction",
+    category: "Data Science",
+    problem: "Companies lose customers without warning. This model finds customers likely to leave so the company can act early.",
+    tags: ["Python", "Scikit-learn", "Modeling"],
+    github: "https://github.com/your-username/customer-churn",
+    liveDemo: ""
+  },
+
+  // AI / ML
+  {
+    id: 7,
+    title: "Spam Message Classifier",
+    category: "AI / ML",
+    problem: "Spam messages waste time and can be scams. This classifier learns from text to mark a message as spam or not spam.",
+    tags: ["Python", "NLP", "ML"],
+    github: "https://github.com/your-username/spam-classifier",
+    liveDemo: ""
+  },
+  {
+    id: 8,
+    title: "Movie Recommendation System",
+    category: "AI / ML",
+    problem: "Finding a good movie takes too long. This system suggests movies similar to the ones a user already likes.",
+    tags: ["Python", "Pandas", "ML"],
+    github: "https://github.com/your-username/movie-recommender",
+    liveDemo: ""
+  },
+
+  // Data Analysis
+  {
+    id: 9,
+    title: "Sales Data Analysis",
+    category: "Data Analysis",
+    problem: "Shop owners do not know which products earn the most. This analysis shows sales trends by product and month.",
+    tags: ["Pandas", "Matplotlib", "Seaborn"],
+    github: "https://github.com/your-username/sales-analysis",
+    liveDemo: ""
+  },
+  {
+    id: 10,
+    title: "Student Performance Analysis",
+    category: "Data Analysis",
+    problem: "Schools want to know why some students score lower. This analysis compares marks with study time and attendance.",
+    tags: ["Pandas", "NumPy", "Seaborn"],
+    github: "https://github.com/your-username/student-performance",
+    liveDemo: ""
+  },
+
+  // Other
+  {
+    id: 11,
+    title: "File Organizer Script",
+    category: "Other",
+    problem: "Download folders get messy fast. This script sorts files into folders by type automatically.",
+    tags: ["Python", "Automation"],
+    github: "https://github.com/your-username/file-organizer",
+    liveDemo: ""
+  },
+  {
+    id: 12,
+    title: "DSA Practice Solutions",
+    category: "Other",
+    problem: "Practicing algorithms needs a place to keep and review solutions. This repo holds my solved problems with notes.",
+    tags: ["C", "Java", "DSA"],
+    github: "https://github.com/your-username/dsa-practice",
+    liveDemo: ""
+  }
+],
 
 
-    projects:[
-        {
-            title:"Portfolio Website",
-            description:"Personal portfolio built with React",
-            github:"https://github.com/project",
-            demo:"https://demo.com"
-        },
 
-        {
-            title:"Ecommerce Website",
-            description:"Online shopping platform",
-            github:"https://github.com/project2",
-            demo:"https://demo2.com"
-        }
-    ],
+    // projects:[
+    //     {
+    //         title:"Portfolio Website",
+    //         description:"Personal portfolio built with React",
+    //         github:"https://github.com/project",
+    //         demo:"https://demo.com"
+    //     },
+
+    //     {
+    //         title:"Ecommerce Website",
+    //         description:"Online shopping platform",
+    //         github:"https://github.com/project2",
+    //         demo:"https://demo2.com"
+    //     }
+    // ],
 
 
-    experience:[
-        {
-            company:"Company Name",
-            role:"Frontend Developer",
-            duration:"2025 - Present"
-        }
-    ]
+    // experience:[
+    //     {
+    //         company:"Company Name",
+    //         role:"Frontend Developer",
+    //         duration:"2025 - Present"
+    //     }
+    // ]
 
 }
 
